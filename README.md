@@ -1,4 +1,4 @@
-# Hi, I'm Alice Matarise 👋🏽
+# Hi, I'm Alice 👋🏽
 
 ### ☁️ Aspiring Cloud Engineer | BSc IT Software Engineering
 
