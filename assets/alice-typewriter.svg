@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 700 70"
+    width="100%" height="70"
+    style="background: transparent;">
+
+    <style>
+        .typewriter-text {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "JetBrains Mono", "Fira Code", monospace;
+            font-size: 30px;
+            font-weight: 700;
+            fill: #38BDF8;
+            letter-spacing: 0.5px;
+        }
+    </style>
+
+    <path id="path0">
+        <animate id="d0" attributeName="d" begin="0s;d3.end" dur="4200ms" fill="remove"
+            values="m0,42 h0 ; m0,42 h700 ; m0,42 h700 ; m0,42 h0" keyTimes="0;0.55;0.85;1" />
+    </path>
+    <text class="typewriter-text" dominant-baseline="middle" x="50%" text-anchor="middle">
+        <textPath xlink:href="#path0">
+            Hi, I'm Alice 👋🏽
+        </textPath>
+    </text>
+
+    <path id="path1">
+        <animate id="d1" attributeName="d" begin="d0.end" dur="4200ms" fill="remove"
+            values="m0,42 h0 ; m0,42 h700 ; m0,42 h700 ; m0,42 h0" keyTimes="0;0.55;0.85;1" />
+    </path>
+    <text class="typewriter-text" dominant-baseline="middle" x="50%" text-anchor="middle">
+        <textPath xlink:href="#path1">
+            Aspiring Cloud Engineer ☁️
+        </textPath>
+    </text>
+
+    <path id="path2">
+        <animate id="d2" attributeName="d" begin="d1.end" dur="4200ms" fill="remove"
+            values="m0,42 h0 ; m0,42 h700 ; m0,42 h700 ; m0,42 h0" keyTimes="0;0.55;0.85;1" />
+    </path>
+    <text class="typewriter-text" dominant-baseline="middle" x="50%" text-anchor="middle">
+        <textPath xlink:href="#path2">
+            Software Engineer • Builder 🚀
+        </textPath>
+    </text>
+
+    <path id="path3">
+        <animate id="d3" attributeName="d" begin="d2.end" dur="4200ms" fill="remove"
+            values="m0,42 h0 ; m0,42 h700 ; m0,42 h700 ; m0,42 h0" keyTimes="0;0.55;0.85;1" />
+    </path>
+    <text class="typewriter-text" dominant-baseline="middle" x="50%" text-anchor="middle">
+        <textPath xlink:href="#path3">
+            Turning ideas into things that run ✨
+        </textPath>
+    </text>
+</svg>
