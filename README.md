@@ -22,6 +22,8 @@
 &nbsp;
 [![Dayform Live](https://img.shields.io/badge/DAYFORM_LIVE-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://dayform-live.vercel.app)
 &nbsp;
+[![Zazen Matcha](https://img.shields.io/badge/ZAZEN_MATCHA-2D3A2E?style=for-the-badge&logo=coffeescript&logoColor=white)](https://zazen-matcha.alwaysdata.net/)
+&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alice-matarise-778bb6374/)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SimplyAlice)
@@ -163,6 +165,7 @@ I BUILD  ──►  TEST  ──►  DEPLOY  ──►  MOVE FORWARD.
 | PROJECT | STATUS | ENVIRONMENT | SCOPE |
 | :--- | :--- | :--- | :--- |
 | 🗓 **[Dayform](https://dayform-live.vercel.app)** | `SHIPPED • LIVE` | Vercel • FastAPI • PostgreSQL | Conversational day-planning & multi-constraint itinerary engine |
+| 🍵 **[Zazen Matcha](https://zazen-matcha.alwaysdata.net/)** | `SHIPPED • LIVE` | Alwaysdata • PHP • MariaDB | Full-stack artisanal e-commerce platform & transactional storefront ([Source](https://github.com/SimplyAlice/Zazen-Matcha)) |
 | ☁️ **[Cloud Resume Challenge](https://cloud-resume-challenge-six.vercel.app/)** | `SHIPPED • LIVE` | Azure Functions • Blob • Table Storage | Serverless cloud portfolio with CI/CD deployment pipelines |
 | 🎓 **Career Finder** | `BUILT` | University SE Project | Opportunity tracking, CV builder, and application tracking system |
 | 🐍 **Python & Automation** | `ACTIVE` | Local & Cloud Sandbox | Systems scripting, REST API integrations, and cloud experiments |
@@ -321,6 +324,8 @@ NEXT MILESTONE       ──►  AZ-900 (in preparation)  ──►  AZ-104
 [🌐 **PORTFOLIO**](https://cloud-resume-challenge-six.vercel.app/)
 &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
 [🗓 **DAYFORM**](https://dayform-live.vercel.app)
+&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
+[🍵 **ZAZEN MATCHA**](https://zazen-matcha.alwaysdata.net/)
 &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
 [💼 **LINKEDIN**](https://www.linkedin.com/in/alice-matarise-778bb6374/)
 &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
