@@ -1,340 +1,148 @@
 <div align="center">
 
-```text
-────────────────────────────────────────────────────────────────────────────
-✦  C L O U D   /   S O F T W A R E   /   P R O D U C T S
-────────────────────────────────────────────────────────────────────────────
-```
+<!-- ======================================================================= -->
+<!-- 00 // CINEMATIC HERO — ANIMATED LAB STAGE (.GIF) + TYPEWRITER (.SVG)    -->
+<!-- ======================================================================= -->
 
-<img src="./assets/alice-typewriter.svg" alt="Hi, I'm Alice" width="580" />
+<img src="./assets/hero-cinematic.gif" width="100%" alt="Alice Matarise — Controlled Chaos Creative Lab: Software, cloud infrastructure, and ideas I couldn't leave alone." />
 
-#
-
-`CLOUD • CODE • CREATION`
+<img src="./assets/alice-typewriter.svg" width="100%" alt="Animated TypeScript terminal console: Alice Matarise — BSc IT (Software Engineering) at Eduvos, Cape Town" />
 
 <br />
 
-> *I build practical software, explore cloud infrastructure, and turn ideas into things that actually run.*
-
-<br />
-
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cloud-resume-challenge-six.vercel.app/)
-&nbsp;
-[![Dayform Live](https://img.shields.io/badge/DAYFORM_LIVE-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://dayform-live.vercel.app)
-&nbsp;
-[![Zazen Matcha](https://img.shields.io/badge/ZAZEN_MATCHA-2D3A2E?style=for-the-badge&logo=coffeescript&logoColor=white)](https://zazen-matcha.alwaysdata.net/)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alice-matarise-778bb6374/)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SimplyAlice)
-
-<br />
+<kbd>CAPE TOWN, SOUTH AFRICA · 33.92°S 18.42°E</kbd> &nbsp;✦&nbsp; <kbd>BSc IT (SOFTWARE ENGINEERING) @ EDUVOS</kbd> &nbsp;✦&nbsp; [<kbd>✉ alicematarise@gmail.com</kbd>](mailto:alicematarise@gmail.com) &nbsp;✦&nbsp; [<kbd>↗ LinkedIn</kbd>](https://www.linkedin.com/in/alice-matarise-422646273/)
 
 </div>
 
----
+<br />
 
-### ⚡ Status & Radar
+### `00 // FIELD NOTES` — *Creative chaos, but make it good.*
 
-| 🚀 **FLAGSHIP STATUS** | 📖 **CURRENTLY EXPLORING** | ⚙️ **DEVOPS & SYSTEMS** | 🎯 **NEXT TARGET** |
+I’m **Alice Matarise**—a final-year **BSc in IT (Software Engineering)** student at **Eduvos in Cape Town** (*graduating May 2027*) who learns best by building real things, testing them against reality, and figuring out why they broke at 2 a.m.
+
+My work sits at the intersection of **full-stack software engineering** and **cloud infrastructure, technical support, and operations**. I care as much about how an interface *feels*—its pacing, typography, and personality—as I do about what happens underneath when a request hits the database, an upstream API times out, or a deployment goes live.
+
+> *"Curious by default. Building as I go—turning raw concepts into software that actually runs outside localhost."*
+
+| `BASE` | `ACADEMIC TRACK` | `SIGNATURE STACK` | `NEXT HORIZON` |
 | :--- | :--- | :--- | :--- |
-| **JUST SHIPPED** → [Dayform](https://dayform-live.vercel.app) | Microsoft Azure • Cloud Architecture | Linux • Containers • CI/CD Automation | AZ-900 (preparing) → AZ-104 |
+| Cape Town, ZA (`SAST`) | BSc IT (Software Engineering) · May 2027 | `TypeScript` · `Python` · `SQL` · `PHP` · `Kotlin` | Cloud Engineering, Support & Ops (`AZ-900` → `AZ-104`) |
+
+<br />
 
 ---
 
-`SCENE 01 / THE FLAGSHIP PRODUCT`
-
-# 🚀 Dayform
-
-### **Your day, shaped.**
-
-> An intelligent day-planning engine that turns plain-spoken intent into verified, timed itineraries with real-world places, transport options, budget awareness, and adaptive schedule recovery.
-
-<br />
-
-<p align="center">
-  <a href="https://dayform-live.vercel.app/"><strong>🌐 LAUNCH LIVE PRODUCT</strong></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/SimplyAlice/dayform"><strong>💻 VIEW SOURCE CODE</strong></a>
-</p>
-
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                        THE ITINERARY PIPELINE                          │
-└────────────────────────────────────────────────────────────────────────┘
-
-                               USER INTENT
-                                    │
-                                    ▼
-                                  PLACES
-                                    │
-                                    ▼
-                                TRANSPORT
-                                    │
-                                    ▼
-                                  TIME
-                                    │
-                                    ▼
-                                 BUDGET
-                                    │
-                                    ▼
-                           VERIFIED ITINERARY
-                                    │
-                                    ▼
-                                REAL DAY
-```
-
-<br />
-
-```text
-                                 DAYFORM
-                                    │
-                                    ▼
-                         Natural-language intent
-                                    │
-                                    ▼
-                          Planning & constraints
-                                    │
-                     ┌──────────────┼──────────────┐
-                     ▼              ▼              ▼
-                  Places        Transport        Budget
-                     │              │              │
-                     └──────────────┼──────────────┘
-                                    ▼
-                            Verified itinerary
-                                    │
-                                    ▼
-                             Your day, shaped.
-```
+<!-- ======================================================================= -->
+<!-- 01 // DAYFORM — CAPE TOWN OUTING & ITINERARY ENGINE                     -->
+<!-- ======================================================================= -->
 
 <div align="center">
-
-`React` &nbsp;•&nbsp; `TypeScript` &nbsp;•&nbsp; `Python` &nbsp;•&nbsp; `FastAPI` &nbsp;•&nbsp; `PostgreSQL` &nbsp;•&nbsp; `Vercel`
-
+  <a href="https://dayform-live.vercel.app/">
+    <img src="./assets/dayform-editorial.png" width="100%" alt="Dayform — Give shape to your day: Cape Town outing planner live screenshot and spatial route dossier" />
+  </a>
 </div>
 
 <br />
 
-### Core Differentiators
+<img align="right" src="./assets/dayform-route-card.gif" width="350" alt="Animated Cape Town GPS route and budget radar for Dayform" />
 
-| 🧠 **INTENT** | 📍 **REAL WORLD** | 🕐 **TIMELINE** | 💰 **BUDGET** |
-| :--- | :--- | :--- | :--- |
-| Understands what the user is asking for in natural language. | Grounds itineraries in real, verified physical locations. | Constructs an executable chronological sequence without dead time. | Keeps known costs visible and respects hard user limits. |
+### `01 // DAYFORM` — *Discovering Places & Shaping Outings*
+
+**[Launch Live Application ↗](https://dayform-live.vercel.app/)** &nbsp;·&nbsp; **[Explore Source Repository ↗](https://github.com/SimplyAlice/dayform)**
+
+Planning an afternoon out in Cape Town usually turns into fifteen open browser tabs—cross-checking kitchen closing hours, drive times between the City Bowl and the Southern Suburbs, weather forecasts, and how fast the bill is climbing. **Dayform** turns a plain-spoken prompt into a verified, time-sequenced itinerary.
+
+- **Spatial & Temporal Feasibility**: Parses natural-language requests (*party size, Rand ceiling, vibe, neighbourhood, time window*) and sequences multi-stop routes with real operating hours, dwell times, and inter-stop transit buffers.
+- **Live Context Enrichment**: Integrates **OpenStreetMap Overpass** for Cape Town venue discovery and **Open-Meteo** for weather-aware scheduling, exporting ready-to-use `.ics` calendar files and Google Maps links.
+- **Engineered for Reliability**: Built with **React 18 + TypeScript (Vite)** and an async **FastAPI + Python 3.12+** backend using **PostgreSQL (`SQLAlchemy 2.0` + `asyncpg`)**, **Redis TTL caching**, and **187 automated Pytest tests**.
+
+<br clear="right" />
 
 <br />
 
-```text
-┌───────────────────────────────────────────────────────────────┐
-│  ● PROD  •  LIVE DEPLOYMENT                                   │
-│                                                               │
-│  DAYFORM                                                      │
-│  Intelligent Day-Planning Engine                              │
-│                                                               │
-│  [ https://dayform-live.vercel.app ]                          │
-└───────────────────────────────────────────────────────────────┘
-```
+---
+
+<!-- ======================================================================= -->
+<!-- 02 // ZAZEN MATCHA & TEA CO. — EDITORIAL JAPANESE E-COMMERCE            -->
+<!-- ======================================================================= -->
 
 <div align="center">
-
-👉 **[Open Dayform in Browser →](https://dayform-live.vercel.app/)**
-
+  <a href="https://zazen-matcha.alwaysdata.net/">
+    <img src="./assets/zazen-editorial.png" width="100%" alt="Zazen Matcha & Tea Co. — Editorial Japanese storefront spread with real desktop, shop, and mobile captures" />
+  </a>
 </div>
 
 <br />
 
-### ✨ Built, Not Just Imagined
+<img align="left" src="./assets/zazen-ritual-card.gif" width="340" alt="Six photographed moments in the Zazen Matcha chawan whisking ritual" />
 
-```text
-IDEA ──► ARCHITECTURE ──► IMPLEMENTATION ──► VERIFICATION ──► DEPLOYMENT ──► LIVE PRODUCT 🚀
-```
+### `02 // ZAZEN MATCHA` — *Mindful Matcha, Transactional Craft*
 
-> *Dayform isn't a concept page — it's a deployed, functional application.*
+**[Visit Live Storefront ↗](https://zazen-matcha.alwaysdata.net/)** &nbsp;·&nbsp; **[Explore Source Repository ↗](https://github.com/SimplyAlice/Zazen-Matcha)**
 
-Experience the live app: **[dayform-live.vercel.app](https://dayform-live.vercel.app/)**
+Designed and engineered from scratch for **Eduvos ITECA3-34 (Deliverable 2)**, **Zazen Matcha & Tea Co.** pairs the calm, tactile atmosphere of a modern Japanese tea house with a custom relational e-commerce backend—without leaning on heavy frontend frameworks or pre-built store templates.
 
----
+- **Editorial Storefront & Whisking Ritual**: Responsive **CSS Grid + custom properties** design system featuring live keyword search, category filtering (*Ceremonial Matcha, Hojicha, Chawan Bowls, Chasen Whisks*), and a photographed six-frame matcha preparation sequence.
+- **Atomic Database Integrity**: Engineered in **PHP 8 (`PDO` prepared statements)** with **MariaDB / MySQL (`InnoDB`)**. Checkout wraps stock verification and order creation inside an explicit database transaction (`SELECT price, stock FROM products WHERE id = :id FOR UPDATE`) so live inventory can never be oversold.
+- **Role-Guarded Admin Console**: Dedicated `/admin` workspace with session security, CSRF verification, and full CRUD management across products, stock levels, and customer orders.
 
-`SCENE 02 / SHIPMENTS`
-
-## 🚀 The Build Log
-
-```text
-I BUILD  ──►  TEST  ──►  DEPLOY  ──►  MOVE FORWARD.
-```
-
-| PROJECT | STATUS | ENVIRONMENT | SCOPE |
-| :--- | :--- | :--- | :--- |
-| 🗓 **[Dayform](https://dayform-live.vercel.app)** | `SHIPPED • LIVE` | Vercel • FastAPI • PostgreSQL | Conversational day-planning & multi-constraint itinerary engine |
-| 🍵 **[Zazen Matcha](https://zazen-matcha.alwaysdata.net/)** | `SHIPPED • LIVE` | Alwaysdata • PHP • MariaDB | Full-stack artisanal e-commerce platform & transactional storefront ([Source](https://github.com/SimplyAlice/Zazen-Matcha)) |
-| ☁️ **[Cloud Resume Challenge](https://cloud-resume-challenge-six.vercel.app/)** | `SHIPPED • LIVE` | Azure Functions • Blob • Table Storage | Serverless cloud portfolio with CI/CD deployment pipelines |
-| 🎓 **Career Finder** | `BUILT` | University SE Project | Opportunity tracking, CV builder, and application tracking system |
-| 🐍 **Python & Automation** | `ACTIVE` | Local & Cloud Sandbox | Systems scripting, REST API integrations, and cloud experiments |
-
----
-
-`SCENE 03 / CLOUD INFRASTRUCTURE`
-
-## ☁️ Cloud Resume Challenge
-
-> A serverless cloud portfolio demonstrating Azure cloud hosting, APIs, storage, CI/CD, and infrastructure automation.
+<br clear="left" />
 
 <br />
 
-<p align="center">
-  <a href="https://cloud-resume-challenge-six.vercel.app/"><strong>🌐 Live Portfolio</strong></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/SimplyAlice/Cloud-Resume-Challenge"><strong>💻 Repository</strong></a>
-</p>
+---
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                   AZURE SERVERLESS ARCHITECTURE                        │
-└────────────────────────────────────────────────────────────────────────┘
-
-                                BROWSER
-                                   │
-                                   ▼ [HTTPS GET]
-                         AZURE STATIC WEBSITE
-                          (Blob Web Endpoint)
-                                   │
-                                   ▼ [REST API Call]
-                            AZURE FUNCTION
-                          (Serverless Python)
-                                   │
-                                   ▼ [State Persistence]
-                          AZURE TABLE STORAGE
-                          (Visitor Telemetry)
-```
+<!-- ======================================================================= -->
+<!-- 03 // CAREER CONNECT — COLLABORATIVE STUDENT ANDROID PROTOTYPE          -->
+<!-- ======================================================================= -->
 
 <div align="center">
-
-`SERVERLESS` &nbsp;•&nbsp; `CI/CD` &nbsp;•&nbsp; `AZURE` &nbsp;•&nbsp; `GITHUB ACTIONS`
-
+  <img src="./assets/career-connect-editorial.png" width="100%" alt="Career Connect — Original designed artwork and Android Studio activity schematic for our 6-person Eduvos Agile team project" />
 </div>
 
 <br />
 
-* **Azure Static Website** — Resilient cloud storage endpoint serving the client-side experience
-* **Azure Functions** — Serverless Python compute handling visitor counting and CORS API requests
-* **Azure Table Storage** — Managed NoSQL state persistence for visitor metrics
-* **GitHub Actions** — Continuous integration and automated deployment pipelines on every push
+### `03 // CAREER CONNECT` — *Connecting Students to First Steps*
 
----
+`University Software Engineering Project · 6-Person Agile Team @ Eduvos`
 
-`SCENE 04 / THE PROCESS`
+Finding early-career internships and keeping track of applications is one of the most stressful parts of university life. **Career Connect** was conceived as a mobile-first Android prototype to bring student opportunity discovery, CV building, and application status alerts into a single student workspace. Rather than working in isolation, this project was about learning how to ship software **together**—translating student pain points into user stories, coordinating across six teammates, and merging design and code under real academic deadlines.
 
-## ⚙️ The Engineering Process
-
-```text
-01  Understand the problem
-        ↓
-02  Design the system
-        ↓
-03  Build the smallest useful version
-        ↓
-04  Test it
-        ↓
-05  Deploy it
-        ↓
-06  Iterate
-```
-
-> *I like building things that solve an actual problem — then making them reliable enough to leave the localhost.*
-
----
-
-`SCENE 05 / SYSTEMS & TECHNOLOGIES`
-
-## 🛠️ The Tech Stack
-
-```text
-┌─── LANGUAGES ──────────────────────────────────────────────────────────┐
-│ Python  ·  TypeScript  ·  JavaScript  ·  SQL                           │
-└─── SYSTEMS & FRAMEWORKS ───────────────────────────────────────────────┘
-│ React  ·  FastAPI  ·  PostgreSQL  ·  REST APIs                         │
-└─── CLOUD & INFRASTRUCTURE ─────────────────────────────────────────────┘
-│ Microsoft Azure  ·  Azure Functions  ·  Azure Table Storage  ·  CI/CD  │
-└─── RUNTIME & TOOLS ────────────────────────────────────────────────────┘
-│ Docker  ·  Linux  ·  Git  ·  GitHub Actions  ·  Azure CLI  ·  VS Code  │
-└────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-`SCENE 06 / TRAJECTORY & HORIZON`
-
-## 🧭 The Trajectory
-
-```text
-SOFTWARE
-   │
-   ▼
-CLOUD
-   │
-   ▼
-CLOUD ENGINEERING
-   │
-   ▼
-PLATFORM ENGINEERING
-   │
-   ▼
-TECHNICAL PRODUCT / PLATFORM LEADERSHIP
-```
-
-> *Focused on the intersection of resilient software engineering, scalable cloud infrastructure, automation, and real-world technology products.*
+- **Agile Team Leadership**: Served as **Team Leader** for a **6-person student team**, facilitating sprint planning, requirement research, UI/UX coordination, task breakdown, and end-to-end QA testing.
+- **Android UI & Activity Flow**: Built the Android frontend in **Kotlin** and **Material Design XML** (`minSdk 24`), implementing the authentication screens (`LoginActivity`, `RegisterActivity`), the student hub (`MainActivity`, `DashboardActivity`), and real-time status alerts (`NotificationActivity`).
+- *Visual note: Illustrated above with original designed artwork and authentic Activity/XML schematics from our team's Android Studio project.*
 
 <br />
 
-### 📚 Active Study Roadmap
-
-```text
-          AZ-900 [PREPARING]
-                  │
-                  ▼
-          Azure Fundamentals
-                  │
-                  ▼
-                AZ-104
-                  │
-                  ▼
-     Cloud & Platform Engineering
-```
-
-```text
-CURRENTLY EXPLORING  ──►  Microsoft Azure  ·  Cloud Architecture  ·  DevOps  ·  Automation
-NEXT MILESTONE       ──►  AZ-900 (in preparation)  ──►  AZ-104
-```
-
 ---
+
+<!-- ======================================================================= -->
+<!-- 04 // MY TECHNICAL WORLD & WHAT I'M EXPLORING NEXT                      -->
+<!-- ======================================================================= -->
+
+<div align="center">
+  <img src="./assets/tech-world-zine.png" width="100%" alt="My Technical World & What's Next — Full-stack building blocks, data & persistence, cloud tooling, and cloud engineering horizon" />
+</div>
+
+<br />
+
+- **How I Build Today**: **TypeScript** *(signature stack)*, **Python 3.12+**, **SQL**, **PHP 8**, **JavaScript (ES6+)**, **HTML5 & CSS3**, **React 18**, **FastAPI**, **Kotlin (Android XML)**, **PostgreSQL**, **MariaDB / MySQL**, **Redis TTL caching**, **REST APIs**, and automated **Pytest** suites.
+- **Where I’m Heading Next**: Pairing my software engineering foundation with **Cloud Engineering, Cloud Support, and Technical Operations**—actively labbing on **Microsoft Azure** and **AWS Skills Center Cape Town** (`S3`, `EC2`, `IAM`, cloud networking, and Linux/Bash diagnostics) while preparing for **Azure Fundamentals (`AZ-900`)** and **Azure Administrator (`AZ-104`)**.
+
+<br />
+
+<!-- ======================================================================= -->
+<!-- 05 // CLOSING STAMP & CONTACT                                           -->
+<!-- ======================================================================= -->
 
 <div align="center">
 
-```text
-────────────────────────────────────────────────────────────────────────────
-
-                              ALICE MATARISE
-
-       BUILDING SOFTWARE.  LEARNING CLOUD.  SHIPPING THINGS THAT RUN.
-
-────────────────────────────────────────────────────────────────────────────
-```
+<img src="./assets/closing-stamp.svg" width="100%" alt="Let's build something unforgettable — Alice Matarise closing colophon" />
 
 <br />
 
-[🌐 **PORTFOLIO**](https://cloud-resume-challenge-six.vercel.app/)
-&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
-[🗓 **DAYFORM**](https://dayform-live.vercel.app)
-&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
-[🍵 **ZAZEN MATCHA**](https://zazen-matcha.alwaysdata.net/)
-&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
-[💼 **LINKEDIN**](https://www.linkedin.com/in/alice-matarise-778bb6374/)
-&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;
-[🐙 **GITHUB**](https://github.com/SimplyAlice)
+**Open to graduate programmes, internships, junior software / cloud support roles, and thoughtful collaborations in Cape Town or remote.**
 
-<br /><br />
-
-`✦ END SCENE`
-
-<br />
+[<kbd>✉ alicematarise@gmail.com</kbd>](mailto:alicematarise@gmail.com) &nbsp;·&nbsp; [<kbd>↗ LinkedIn — Alice Matarise</kbd>](https://www.linkedin.com/in/alice-matarise-422646273/) &nbsp;·&nbsp; [<kbd>↗ Dayform Live</kbd>](https://dayform-live.vercel.app/) &nbsp;·&nbsp; [<kbd>↗ Zazen Matcha Live</kbd>](https://zazen-matcha.alwaysdata.net/)
 
 </div>
