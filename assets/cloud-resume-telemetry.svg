@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 290" width="100%" role="img" aria-labelledby="cr-title cr-desc">
+  <title id="cr-title">Cloud Resume Challenge — Serverless Telemetry &amp; Architecture Evolution</title>
+  <desc id="cr-desc">Light-surface architecture schematic on warm white (#FFFAF7) showing the live Vercel and Neon PostgreSQL serverless visitor counter alongside the earlier Azure Functions and Table Storage cloud lab iteration.</desc>
+
+  <defs>
+    <pattern id="light-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#17171B" fill-opacity="0.14" />
+    </pattern>
+  </defs>
+
+  <!-- Offset Shadow in Ink Black -->
+  <rect x="10" y="10" width="904" height="274" rx="14" fill="#17171B" />
+
+  <!-- Warm White (#FFFAF7) Main Surface for Rhythm Contrast -->
+  <rect x="4" y="4" width="904" height="274" rx="14" fill="#FFFAF7" stroke="#17171B" stroke-width="2.5" />
+  <rect x="4" y="4" width="904" height="274" rx="14" fill="url(#light-grid)" />
+
+  <!-- Top Header Strip -->
+  <rect x="24" y="22" width="246" height="26" rx="5" fill="#17171B" />
+  <text x="36" y="39" fill="#F4B6D2" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="800" letter-spacing="1">BUILD 02 // CLOUD RESUME LAB</text>
+
+  <rect x="282" y="22" width="196" height="26" rx="5" fill="#B9DFFF" stroke="#17171B" stroke-width="1.5" />
+  <text x="294" y="39" fill="#17171B" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700">PROD: Vercel + Neon SQL</text>
+
+  <!-- Main Production Pipeline Box (Left / Center) -->
+  <rect x="24" y="64" width="576" height="194" rx="10" fill="#FFFAF7" stroke="#17171B" stroke-width="2" />
+  <rect x="24" y="64" width="576" height="30" rx="10" fill="#17171B" />
+  <rect x="24" y="82" width="576" height="12" fill="#17171B" />
+  <text x="40" y="84" fill="#B9DFFF" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.8">
+    LIVE PRODUCTION REQUEST FLOW (cloud-resume-challenge-six.vercel.app)
+  </text>
+
+  <!-- Node 1: Static Frontend -->
+  <rect x="42" y="114" width="148" height="84" rx="8" fill="#17171B" />
+  <text x="56" y="136" fill="#B9DFFF" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700">01 // CLIENT</text>
+  <text x="56" y="156" fill="#FFFAF7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Vercel CDN</text>
+  <text x="56" y="174" fill="#F4B6D2" font-family="'JetBrains Mono', Consolas, monospace" font-size="10">HTML · CSS · JS</text>
+  <text x="56" y="188" fill="#FFFAF7" fill-opacity="0.7" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">assets/js/script.js</text>
+
+  <!-- Arrow 1 -->
+  <line x1="190" y1="156" x2="232" y2="156" stroke="#17171B" stroke-width="2" />
+  <polygon points="230,151 240,156 230,161" fill="#17171B" />
+  <rect x="193" y="130" width="42" height="18" rx="4" fill="#F4B6D2" stroke="#17171B" stroke-width="1" />
+  <text x="214" y="142" text-anchor="middle" fill="#17171B" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="800">GET</text>
+
+  <!-- Node 2: Serverless Route -->
+  <rect x="242" y="114" width="156" height="84" rx="8" fill="#B9DFFF" stroke="#17171B" stroke-width="2" />
+  <text x="256" y="136" fill="#17171B" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="800">02 // SERVERLESS</text>
+  <text x="256" y="156" fill="#17171B" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="800">/api/visitors.js</text>
+  <text x="256" y="174" fill="#17171B" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700">Node.js Runtime</text>
+  <text x="256" y="188" fill="#17171B" fill-opacity="0.8" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">405 / 500 guards</text>
+
+  <!-- Arrow 2 -->
+  <line x1="398" y1="156" x2="436" y2="156" stroke="#17171B" stroke-width="2" />
+  <polygon points="434,151 444,156 434,161" fill="#17171B" />
+
+  <!-- Node 3: Neon PostgreSQL -->
+  <rect x="446" y="114" width="136" height="84" rx="8" fill="#17171B" />
+  <text x="458" y="136" fill="#F4B6D2" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700">03 // STATE</text>
+  <text x="458" y="156" fill="#FFFAF7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Neon Postgres</text>
+  <text x="458" y="174" fill="#B9DFFF" font-family="'JetBrains Mono', Consolas, monospace" font-size="10">Atomic Upsert</text>
+  <text x="458" y="188" fill="#FFFAF7" fill-opacity="0.7" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">DATABASE_URL env</text>
+
+  <!-- Bottom Telemetry Strip inside Left Box -->
+  <rect x="42" y="212" width="540" height="32" rx="6" fill="#F4B6D2" fill-opacity="0.3" stroke="#17171B" stroke-width="1.5" />
+  <circle cx="58" cy="228" r="4.5" fill="#FF5C74" />
+  <text x="72" y="232" fill="#17171B" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="700">
+    @neondatabase/serverless ──► atomic counter increment + JSON response
+  </text>
+
+  <!-- RIGHT SIDE: Pinned Lab Evolution Note (Bubblegum Pink + Ink Black) -->
+  <g transform="translate(620, 56) rotate(-1.2)">
+    <rect x="6" y="6" width="264" height="202" rx="10" fill="#B9DFFF" stroke="#17171B" stroke-width="1.5" />
+    <rect x="0" y="0" width="264" height="202" rx="10" fill="#17171B" stroke="#17171B" stroke-width="2" />
+
+    <!-- Pink Corner Sticker -->
+    <rect x="18" y="-10" width="136" height="22" rx="4" fill="#F4B6D2" stroke="#17171B" stroke-width="1.5" />
+    <text x="86" y="5" text-anchor="middle" fill="#17171B" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="800" letter-spacing="0.8">ARCHITECTURE LOG</text>
+
+    <text x="20" y="34" fill="#B9DFFF" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700">v1.0 // Cloud Learning Lab</text>
+    <text x="20" y="54" fill="#FFFAF7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">
+      Built first iteration with Azure
+    </text>
+    <text x="20" y="72" fill="#FFFAF7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">
+      Functions, Azure Table Storage,
+    </text>
+    <text x="20" y="90" fill="#FFFAF7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">
+      and GitHub Actions CI/CD.
+    </text>
+
+    <line x1="20" y1="106" x2="244" y2="106" stroke="#B9DFFF" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="4 4" />
+
+    <text x="20" y="128" fill="#F4B6D2" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700">v2.0 // Current Production</text>
+    <text x="20" y="148" fill="#FFFAF7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">
+      Migrated live hosting to Vercel
+    </text>
+    <text x="20" y="166" fill="#FFFAF7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">
+      + Neon serverless PostgreSQL for
+    </text>
+    <text x="20" y="184" fill="#B9DFFF" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700">
+      always-on zero-cold-start telemetry.
+    </text>
+  </g>
+</svg>

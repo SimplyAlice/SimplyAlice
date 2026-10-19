@@ -1,56 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 700 70"
-    width="100%" height="70"
-    style="background: transparent;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 64" width="100%" height="64" role="img" aria-labelledby="tw-title tw-desc">
+  <title id="tw-title">Alice Matarise — Live TypeScript Status Bar</title>
+  <desc id="tw-desc">Animated typewriter console in signature baby-blue (#B9DFFF) on ink black (#17171B), cycling through Alice Matarise's current focus areas in software engineering and cloud.</desc>
 
-    <style>
-        .typewriter-text {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "JetBrains Mono", "Fira Code", monospace;
-            font-size: 30px;
-            font-weight: 700;
-            fill: #38BDF8;
-            letter-spacing: 0.5px;
-        }
-    </style>
+  <!-- Console Pill Background -->
+  <rect x="4" y="4" width="912" height="56" rx="12" fill="#17171B" stroke="#B9DFFF" stroke-opacity="0.45" stroke-width="1.5" />
 
-    <path id="path0">
-        <animate id="d0" attributeName="d" begin="0s;d3.end" dur="4200ms" fill="remove"
-            values="m0,42 h0 ; m0,42 h700 ; m0,42 h700 ; m0,42 h0" keyTimes="0;0.55;0.85;1" />
-    </path>
-    <text class="typewriter-text" dominant-baseline="middle" x="50%" text-anchor="middle">
-        <textPath xlink:href="#path0">
-            Hi, I'm Alice 👋🏽
-        </textPath>
+  <!-- Left Prompt Badge -->
+  <rect x="16" y="14" width="164" height="36" rx="7" fill="#23232B" stroke="#F4B6D2" stroke-opacity="0.5" stroke-width="1" />
+  <circle cx="32" cy="32" r="4.5" fill="#FF5C74" />
+  <text x="46" y="36" fill="#F4B6D2" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="12.5" font-weight="700" letter-spacing="0.5">ts-node ~/alice.ts</text>
+
+  <!-- Prompt Chevron -->
+  <text x="196" y="37" fill="#C8B5F5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="700">❯</text>
+
+  <!-- Line 1 (Default visible if animation is disabled, fades cleanly during cycle) -->
+  <g opacity="1">
+    <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="16s" repeatCount="indefinite" />
+    <text x="218" y="37" fill="#B9DFFF" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="15.5" font-weight="700" letter-spacing="0.3">
+      const alice = { age: 23, role: "BSc IT (Software Engineering)", city: "Cape Town" };
     </text>
+  </g>
 
-    <path id="path1">
-        <animate id="d1" attributeName="d" begin="d0.end" dur="4200ms" fill="remove"
-            values="m0,42 h0 ; m0,42 h700 ; m0,42 h700 ; m0,42 h0" keyTimes="0;0.55;0.85;1" />
-    </path>
-    <text class="typewriter-text" dominant-baseline="middle" x="50%" text-anchor="middle">
-        <textPath xlink:href="#path1">
-            Aspiring Cloud Engineer ☁️
-        </textPath>
+  <!-- Line 2 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="16s" repeatCount="indefinite" />
+    <text x="218" y="37" fill="#B9DFFF" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="15.5" font-weight="700" letter-spacing="0.3">
+      curious_by_default.ts ──► building full-stack web apps &amp; exploring cloud ops
     </text>
+  </g>
 
-    <path id="path2">
-        <animate id="d2" attributeName="d" begin="d1.end" dur="4200ms" fill="remove"
-            values="m0,42 h0 ; m0,42 h700 ; m0,42 h700 ; m0,42 h0" keyTimes="0;0.55;0.85;1" />
-    </path>
-    <text class="typewriter-text" dominant-baseline="middle" x="50%" text-anchor="middle">
-        <textPath xlink:href="#path2">
-            Software Engineer • Builder 🚀
-        </textPath>
+  <!-- Line 3 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="16s" repeatCount="indefinite" />
+    <text x="218" y="37" fill="#B9DFFF" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="15.5" font-weight="700" letter-spacing="0.3">
+      shipped: ["Dayform", "Cloud Resume Portfolio", "Zazen Matcha &amp; Tea Co."]
     </text>
+  </g>
 
-    <path id="path3">
-        <animate id="d3" attributeName="d" begin="d2.end" dur="4200ms" fill="remove"
-            values="m0,42 h0 ; m0,42 h700 ; m0,42 h700 ; m0,42 h0" keyTimes="0;0.55;0.85;1" />
-    </path>
-    <text class="typewriter-text" dominant-baseline="middle" x="50%" text-anchor="middle">
-        <textPath xlink:href="#path3">
-            Turning ideas into things that run ✨
-        </textPath>
+  <!-- Line 4 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="16s" repeatCount="indefinite" />
+    <text x="218" y="37" fill="#B9DFFF" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="15.5" font-weight="700" letter-spacing="0.3">
+      I build things. I break things. I learn how they run in production.
     </text>
+  </g>
+
+  <!-- Blinking Bubblegum Pink Cursor at Right -->
+  <rect x="888" y="21" width="10" height="22" rx="2" fill="#F4B6D2">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite" />
+  </rect>
 </svg>
